@@ -10,7 +10,7 @@
 
 2. Залогинился в каждую из машин, поменял *hostname* и *username* :
 
-![screenshots/img_2.png](screenshots/img_2.png)
+![screenshots/img_2.png](screenshots/img_2.png) 
 ![screenshots/img_3.png](screenshots/img_3.png)
 ![screenshots/img_4.png](screenshots/img_4.png)
 
