@@ -1,4 +1,4 @@
-# 1-ая Практика Linux - Да Это Жестко
+# Linux - практика №1
 
 ## 1 Настроил все 3 виртуальные машины, согласно схеме ниже:
 
@@ -17,7 +17,7 @@
 3. Настроил ***netplan***:
 
 * Вывожу *ip addr*
-* 
+
 ![screenshots/img_5.png](screenshots/img_5.png)
 
 * Вывожу *netplan*:
@@ -32,8 +32,8 @@
 ![screenshots/img_7.png](screenshots/img_7.png)
 
 2. Разрешил переброс только конкретных пакетов по конкретному порту с помощью *iptables* для:
-* Ограничения траффика;
-* Сделал firewall. (да, это жестко)
+* Ограничения трафика;
+* Сделал firewall. 
 
 ```shell
 $ sudo iptables -A FORWARD -i enp0s9 -o enp0s8 -p tcp --syn --dport 5000 -m conntrack --ctstate NEW -j ACCEPT
@@ -106,5 +106,3 @@ $ sudo systemctl status web-server
 2. Вывод клиента
 
 ![screenshots/img_12.png](screenshots/img_12.png)
-
-<a href="url">Спасибо за внимание!</a>
